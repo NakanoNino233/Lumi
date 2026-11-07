@@ -17,6 +17,7 @@ Distribution/output/
 
 # Keep public documentation; local development reports stay on this machine.
 /Documentation/*
+!/Documentation/Images/
 !/Documentation/Installation.md
 !/Documentation/Installation-Flow.svg
 !/Documentation/ThirdParty/
