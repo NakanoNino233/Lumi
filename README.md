@@ -1,3 +1,5 @@
+<p align="center"><strong>简体中文</strong> · <a href="README.en.md">English</a></p>
+
 <p align="center">
   <img src="Lumi/Assets.xcassets/AppIcon.appiconset/LumiIcon.png" width="112" alt="Lumi 玩偶图标">
 </p>
