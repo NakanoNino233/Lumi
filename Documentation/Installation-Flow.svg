@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="420" viewBox="0 0 1080 420">
+<rect width="1080" height="420" rx="24" fill="#f2f6f3"/>
+<g font-family="Arial, PingFang SC, sans-serif" fill="#214d3c">
+<text x="40" y="58" font-size="30" font-weight="bold">Lumi · 安装与续签流程（示意）</text>
+<g fill="white" stroke="#9ebaaa" stroke-width="2"><rect x="40" y="110" width="280" height="185" rx="20"/><rect x="400" y="110" width="280" height="185" rx="20"/><rect x="760" y="110" width="280" height="185" rx="20"/></g>
+<text x="62" y="155" font-size="23">1　保存 IPA</text><text x="62" y="198" font-size="18">下载 Release 或构建产物</text><text x="62" y="230" font-size="18">确认来自你信任的源码</text>
+<text x="423" y="155" font-size="23">2　导入并签名</text><text x="423" y="198" font-size="18">AltStore Classic / SideStore</text><text x="423" y="230" font-size="18">按官方教程完成工具安装</text>
+<text x="782" y="155" font-size="23">3　定期刷新</text><text x="782" y="198" font-size="18">到期前在原工具中续签</text><text x="782" y="230" font-size="18">续签前导出 Lumi 备份</text>
+<text x="344" y="210" font-size="35">→</text><text x="704" y="210" font-size="35">→</text>
+<text x="40" y="355" font-size="20">免费签名通常 7 天 · 同时最多 3 个侧载 App（包含侧载工具）</text>
+<text x="40" y="389" font-size="16">以工具显示的到期时间和当前官方说明为准。此图不是实际安装成功的证明。</text></g></svg>

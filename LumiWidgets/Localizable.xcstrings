@@ -1,0 +1,70 @@
+{
+  "sourceLanguage" : "zh-Hans",
+  "strings" : {
+    "%@" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@"
+          }
+        }
+      }
+    },
+    "%lld" : {
+
+    },
+    "Lumi" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lumi"
+          }
+        }
+      }
+    },
+    "Lumi 陪伴" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lumi companion"
+          }
+        }
+      }
+    },
+    "慢慢说，我在听。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Take your time. I’m listening."
+          }
+        }
+      }
+    },
+    "打开 Lumi，看看你的好友。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open Lumi and visit your friends."
+          }
+        }
+      }
+    },
+    "静态陪伴卡片，不读取聊天资料。" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A static companion card that does not read your chats."
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

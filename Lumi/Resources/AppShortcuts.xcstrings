@@ -1,0 +1,63 @@
+{
+  "sourceLanguage" : "zh-Hans",
+  "strings" : {
+    "用 ${applicationName} 对角色说句话" : {
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Say something to a character with ${applicationName}"
+          }
+        },
+        "zh-Hans" : {
+          "stringSet" : {
+            "state" : "new",
+            "values" : [
+              "用 ${applicationName} 对角色说句话"
+            ]
+          }
+        }
+      }
+    },
+    "用 ${applicationName} 获取角色回复" : {
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Get a character reply with ${applicationName}"
+          }
+        },
+        "zh-Hans" : {
+          "stringSet" : {
+            "state" : "new",
+            "values" : [
+              "用 ${applicationName} 获取角色回复"
+            ]
+          }
+        }
+      }
+    },
+    "用 ${applicationName} 让角色说话" : {
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Let a character speak with ${applicationName}"
+          }
+        },
+        "zh-Hans" : {
+          "stringSet" : {
+            "state" : "new",
+            "values" : [
+              "用 ${applicationName} 让角色说话"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

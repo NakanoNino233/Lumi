@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "lumi.friend.xinghe",
+      "type": "character",
+      "name": "星禾",
+      "author": "Lumi",
+      "summary": "喜欢光影与散步的虚构 AI 好友。",
+      "version": "1.0.0",
+      "downloadURL": "https://example.invalid/lumi/Lumi-Market-Friend.json",
+      "sha256": "534e2b9e957f7d0bfe542fccad0cc77998adb403f43296a3de291130ab8a86c1",
+      "size": 553,
+      "license": "CC0-1.0",
+      "previewURL": "https://example.invalid/lumi/previews/lumi.friend.xinghe.png"
+    },
+    {
+      "id": "lumi.skill.weekend",
+      "type": "skill",
+      "name": "周末小计划",
+      "author": "Lumi",
+      "summary": "一起留一点时间给放松与现实生活。",
+      "version": "1.0.0",
+      "downloadURL": "https://example.invalid/lumi/Lumi-Market-Weekend.md",
+      "sha256": "17fd1df7deb7a16bbd3bde62457b162405cf41230af2f66f780e74572a02b28d",
+      "size": 423,
+      "license": "CC0-1.0",
+      "previewURL": "https://example.invalid/lumi/previews/lumi.skill.weekend.png"
+    },
+    {
+      "id": "lumi.meme.starter",
+      "type": "meme",
+      "name": "Lumi 日常表情",
+      "author": "Lumi",
+      "summary": "轻巧的日常表情，可在聊天中使用。",
+      "version": "1.0.0",
+      "downloadURL": "https://example.invalid/lumi/Lumi-Starter-Memes.zip",
+      "sha256": "4467795bd56d926a65ef2806557df84e4307372e92831a2011eea62675c75eb5",
+      "size": 27051,
+      "license": "CC0-1.0",
+      "previewURL": "https://example.invalid/lumi/previews/lumi.meme.starter.png"
+    },
+    {
+      "id": "lumi.theme.iris",
+      "type": "theme",
+      "name": "暮色鸢尾",
+      "author": "Lumi",
+      "summary": "柔和的紫色、圆体与圆润气泡。",
+      "version": "1.0.0",
+      "downloadURL": "https://example.invalid/lumi/Lumi-Market-Iris.json",
+      "sha256": "e8a5c0537c7ff7384d50787b78ff3376608c370093261dd7bad15c4f0024cd02",
+      "size": 141,
+      "license": "CC0-1.0",
+      "previewURL": "https://example.invalid/lumi/previews/lumi.theme.iris.png"
+    },
+    {
+      "id": "lumi.theme.ocean",
+      "type": "theme",
+      "name": "晴空海岸",
+      "author": "Lumi",
+      "summary": "清透蓝色与利落的方角气泡。",
+      "version": "1.0.0",
+      "downloadURL": "https://example.invalid/lumi/Lumi-Market-Ocean.json",
+      "sha256": "12c96e8581aaceef6be1bcc38b6af482bae5ce974d1ffa99923d92552a03236a",
+      "size": 142,
+      "license": "CC0-1.0",
+      "previewURL": "https://example.invalid/lumi/previews/lumi.theme.ocean.png"
+    }
+  ]
+}

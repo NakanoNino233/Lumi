@@ -1,0 +1,171 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:lumi:market:index:1",
+  "title": "Lumi Static Market Index",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "items"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "items": {
+      "type": "array",
+      "maxItems": 500,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "type",
+          "name",
+          "author",
+          "summary",
+          "version",
+          "downloadURL",
+          "sha256",
+          "size",
+          "license"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9_.-]{1,80}$"
+          },
+          "type": {
+            "enum": [
+              "character",
+              "skill",
+              "meme",
+              "theme"
+            ]
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 120
+          },
+          "author": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 120
+          },
+          "summary": {
+            "type": "string",
+            "maxLength": 2000
+          },
+          "version": {
+            "type": "string",
+            "pattern": "^(0|[1-9][0-9]{0,8})\\.(0|[1-9][0-9]{0,8})\\.(0|[1-9][0-9]{0,8})$"
+          },
+          "downloadURL": {
+            "type": "string",
+            "pattern": "^https://[^?#@]+\\.(json|md|zip)$"
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[A-Fa-f0-9]{64}$"
+          },
+          "size": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 30000000
+          },
+          "license": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 2000
+          },
+          "previewURL": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "pattern": "^https://[^?#@]+$"
+          }
+        },
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "type": {
+                  "const": "character"
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "size": {
+                  "maximum": 12000000
+                },
+                "downloadURL": {
+                  "pattern": "^https://[^?#@]+\\.json$"
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "type": {
+                  "const": "skill"
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "size": {
+                  "maximum": 5000000
+                },
+                "downloadURL": {
+                  "pattern": "^https://[^?#@]+\\.(md|zip)$"
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "type": {
+                  "const": "meme"
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "size": {
+                  "maximum": 30000000
+                },
+                "downloadURL": {
+                  "pattern": "^https://[^?#@]+\\.zip$"
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "type": {
+                  "const": "theme"
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "size": {
+                  "maximum": 16000
+                },
+                "downloadURL": {
+                  "pattern": "^https://[^?#@]+\\.json$"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

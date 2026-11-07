@@ -1,0 +1,94 @@
+{
+  "sourceLanguage": "zh-Hans",
+  "strings": {
+    "CFBundleName": {
+      "comment": "Bundle name",
+      "extractionState": "extracted_with_value",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "new",
+            "value": "Lumi"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lumi"
+          }
+        }
+      }
+    },
+    "NSCalendarsFullAccessUsageDescription": {
+      "comment": "Privacy - Calendars Full Access Usage Description",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lumi only reads event titles and times for today and tomorrow to help your model generate greetings. It never edits your calendar."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lumi 仅读取今明两天事件的标题和时间，供你配置的模型生成贴心问候，不会修改日历。"
+          }
+        }
+      }
+    },
+    "NSLocationWhenInUseUsageDescription": {
+      "comment": "Privacy - Location When In Use Usage Description",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "With your permission, approximate coordinates are sent to Open-Meteo for weather. Lumi does not save your location and only sends a weather summary to your model provider."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "允许后，将大致位置发送给 Open-Meteo 获取天气。Lumi 不保存位置，仅将天气摘要提供给你配置的模型。"
+          }
+        }
+      }
+    },
+    "NSMicrophoneUsageDescription": {
+      "comment": "Privacy - Microphone Usage Description",
+      "extractionState": "extracted_with_value",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "new",
+            "value": "Lumi 使用麦克风将你的语音在本机转换为文字，不保留录音。"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lumi uses the microphone only when you enable voice input or voice chat. Recordings are not saved."
+          }
+        }
+      }
+    },
+    "NSSpeechRecognitionUsageDescription": {
+      "comment": "Privacy - Speech Recognition Usage Description",
+      "extractionState": "extracted_with_value",
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "new",
+            "value": "Lumi 使用系统本机语音识别，识别后的文字由你发送给配置的模型。"
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lumi uses on-device speech recognition to turn your speech into text for voice input and voice chat."
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

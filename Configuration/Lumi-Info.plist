@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+<key>BGTaskSchedulerPermittedIdentifiers</key><array><string>app.lumi.greetings.refresh</string></array>
+<key>UIBackgroundModes</key><array><string>fetch</string></array>
+<key>NSLocationWhenInUseUsageDescription</key><string>允许后，将大致位置发送给 Open-Meteo 获取天气。Lumi 不保存位置，仅将天气摘要提供给你配置的模型。</string>
+<key>NSCalendarsFullAccessUsageDescription</key><string>Lumi 仅读取今明两天事件的标题和时间，供你配置的模型生成贴心问候，不会修改日历。</string>
+<key>NSMicrophoneUsageDescription</key><string>Lumi 使用麦克风将你的语音在本机转换为文字，不保留录音。</string>
+<key>NSSpeechRecognitionUsageDescription</key><string>Lumi 使用系统本机语音识别，识别后的文字由你发送给配置的模型。</string>
+<key>NSSupportsLiveActivities</key><true/>
+</dict></plist>

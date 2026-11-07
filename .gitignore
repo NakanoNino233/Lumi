@@ -1,0 +1,39 @@
+# macOS / Xcode
+.DS_Store
+DerivedData/
+.build/
+*.xcuserstate
+xcuserdata/
+*.xcresult
+*.app
+*.dSYM/
+*.xcarchive/
+
+# Local builds and release assets
+Distribution/output/
+*.ipa
+*.log
+/Previews/
+
+# Keep public documentation; local development reports stay on this machine.
+/Documentation/*
+!/Documentation/Installation.md
+!/Documentation/Installation-Flow.svg
+!/Documentation/ThirdParty/
+!/Documentation/Market/
+!/Documentation/Tools/
+
+# Credentials, signing files and local data
+.env
+.env.*
+!.env.example
+*.p12
+*.p8
+*.pem
+*.key
+*.mobileprovision
+*.provisionprofile
+*.sqlite
+*.sqlite3
+*.db
+*.keychain*
