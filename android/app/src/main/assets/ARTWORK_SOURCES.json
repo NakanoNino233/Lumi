@@ -1,0 +1,92 @@
+[
+  {
+    "resource": "lumi_logo.png",
+    "source": "Lumi/Assets.xcassets/LumiLogo.imageset/LumiLogo.png",
+    "sha256": "cebb2c8bce83a81792618a77d7b914d2276ef21cb34c52056b63d7abb32a520a"
+  },
+  {
+    "resource": "lumi_icon_dawn.png",
+    "source": "Lumi/Assets.xcassets/LumiIconDawn.imageset/Icon.png",
+    "sha256": "3bc02d973ad05ccb5556bc3bc37774e4845f18106583417f37552a0c179c2b32"
+  },
+  {
+    "resource": "lumi_icon_night.png",
+    "source": "Lumi/Assets.xcassets/LumiIconNight.imageset/Icon.png",
+    "sha256": "37bb42e20fd7b2a2d5fff40c104ceb87aeafc20f8604467d1dbdbb19ff7cc012"
+  },
+  {
+    "resource": "lumi_icon_ocean.png",
+    "source": "Lumi/Assets.xcassets/LumiIconOcean.imageset/Icon.png",
+    "sha256": "0533288793b61dc56fb5dbf20f54dc7b7b38ad536e11448ec4fd21ae79b0d070"
+  },
+  {
+    "resource": "daughter_avatar.jpg",
+    "source": "Lumi/Resources/IMG_1699.jpg",
+    "sha256": "3dd0f0d7fceb76b780756359cfdccf0daacd0ae4b632429a8b2917b04f3956b8"
+  },
+  {
+    "resource": "daughter_moments_cover.jpg",
+    "source": "Lumi/Assets.xcassets/DaughterMomentsCover.imageset/IMG_1856.JPG",
+    "sha256": "a890dd6918ede4abe299c3ced1d730abe84956836098708862e6dad8409d9ff1"
+  },
+  {
+    "resource": "lumi_sticker_00.png",
+    "source": "Lumi/Resources/Lumi-Starter-Memes.zip/memes/00.png",
+    "sha256": "f43000dec8b2161a31813d8e4c15668b6cfc234882833f22e2262ab9c4b7737c"
+  },
+  {
+    "resource": "lumi_sticker_01.png",
+    "source": "Lumi/Resources/Lumi-Starter-Memes.zip/memes/01.png",
+    "sha256": "86934bb4df2598bdb01f5e11a114ef773de4191b9dd5c07c89356470398d1269"
+  },
+  {
+    "resource": "lumi_sticker_02.png",
+    "source": "Lumi/Resources/Lumi-Starter-Memes.zip/memes/02.png",
+    "sha256": "0e9e769b36f0480b8f374163567a1229316c0a454805d221a6497619768edfb8"
+  },
+  {
+    "resource": "lumi_sticker_03.png",
+    "source": "Lumi/Resources/Lumi-Starter-Memes.zip/memes/03.png",
+    "sha256": "b67b1e39d22a5c726b6d9175431044b1a532840b96ce7ee5e7b23a4a53c94c00"
+  },
+  {
+    "resource": "lumi_sticker_04.png",
+    "source": "Lumi/Resources/Lumi-Starter-Memes.zip/memes/04.png",
+    "sha256": "96d545a1cf5b4b38ab7bd12b0a3b34136e4a45fe4352f8a7c76858d3079ff3c5"
+  },
+  {
+    "resource": "lumi_sticker_05.png",
+    "source": "Lumi/Resources/Lumi-Starter-Memes.zip/memes/05.png",
+    "sha256": "ea5f62eb148e6e375e73b8e57c7d8156db50e7ee59b395e894272a92dc9df909"
+  },
+  {
+    "resource": "lumi_sticker_06.png",
+    "source": "Lumi/Resources/Lumi-Starter-Memes.zip/memes/06.png",
+    "sha256": "f43000dec8b2161a31813d8e4c15668b6cfc234882833f22e2262ab9c4b7737c"
+  },
+  {
+    "resource": "lumi_sticker_07.png",
+    "source": "Lumi/Resources/Lumi-Starter-Memes.zip/memes/07.png",
+    "sha256": "3b6684942e4bf90cf65c094cd06e3d97aac75e1fac8b9650a320dfb9fb4cba84"
+  },
+  {
+    "resource": "lumi_sticker_08.png",
+    "source": "Lumi/Resources/Lumi-Starter-Memes.zip/memes/08.png",
+    "sha256": "ec05c71442f96b1b3cc234d99bf0850bd26be7ac0b7e3e8c9a021210a8748426"
+  },
+  {
+    "resource": "lumi_sticker_09.png",
+    "source": "Lumi/Resources/Lumi-Starter-Memes.zip/memes/09.png",
+    "sha256": "0e3175d592aa53f492f91293deb1c5792418d6540280d2ae9578f9ba66d9cbec"
+  },
+  {
+    "resource": "lumi_sticker_10.png",
+    "source": "Lumi/Resources/Lumi-Starter-Memes.zip/memes/10.png",
+    "sha256": "4a2a58f44d00930b8c329a61e7b781e5b5d3d8025477aa2869427bc4590939d4"
+  },
+  {
+    "resource": "lumi_sticker_11.png",
+    "source": "Lumi/Resources/Lumi-Starter-Memes.zip/memes/11.png",
+    "sha256": "1b62885b034e349645b56f4d753620488f5f912a34dd3a51c55f6620bbeaab2a"
+  }
+]

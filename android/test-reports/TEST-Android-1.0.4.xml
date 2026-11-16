@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<testsuite name="Lumi Android 1.0.4 - dedicated LumiTest API 37" tests="17" failures="0" errors="0" skipped="0" time="86.52">
+  <testcase classname="com.example.lumi.AppFlowTest" name="navigationAndOfflineChatPersist" />
+  <testcase classname="com.example.lumi.AuditRegressionTest" name="inFlightFriendOperationsCannotCreateOrphanRecords" />
+  <testcase classname="com.example.lumi.AuditRegressionTest" name="retryKeepsOriginalUntilSuccessAndEditorPreservesLiveFields" />
+  <testcase classname="com.example.lumi.AuditRegressionTest" name="restoreBlocksEditsAndReplacesPendingWritesAtomically" />
+  <testcase classname="com.example.lumi.AuditRegressionTest" name="previewCacheReusesBitmapsAndBoundsImportedImages" />
+  <testcase classname="com.example.lumi.AuditRegressionTest" name="draftsSearchAndReadingPositionSurviveNavigation" />
+  <testcase classname="com.example.lumi.CoreInstrumentedTest" name="anthropicStreamingAndHeadersWork" />
+  <testcase classname="com.example.lumi.CoreInstrumentedTest" name="openAiStreamingCapturesUsageAfterFinishAndUnicode" />
+  <testcase classname="com.example.lumi.CoreInstrumentedTest" name="atomicLocalStorageRoundTripsAndSeedLoads" />
+  <testcase classname="com.example.lumi.CoreInstrumentedTest" name="iosV1CoreTextDataMigrates" />
+  <testcase classname="com.example.lumi.CoreInstrumentedTest" name="legacyDefaultAvatarMigratesOnceAndPreservesRecords" />
+  <testcase classname="com.example.lumi.CoreInstrumentedTest" name="invalidBackupReferencesAreRejected" />
+  <testcase classname="com.example.lumi.CoreInstrumentedTest" name="failedAndTruncatedRequestsAreReported" />
+  <testcase classname="com.example.lumi.CoreInstrumentedTest" name="credentialsAreEncryptedAndNeverPartOfBackup" />
+  <testcase classname="com.example.lumi.CoreInstrumentedTest" name="friendMomentsCoversRoundTripAndRejectInvalidImages" />
+  <testcase classname="com.example.lumi.CoreInstrumentedTest" name="androidBackupRoundTripsEveryCoreRecord" />
+  <testcase classname="com.example.lumi.MomentsFlowTest" name="personalAndFriendCoversAndFeedsStaySeparate" />
+</testsuite>

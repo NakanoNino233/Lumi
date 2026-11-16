@@ -5,20 +5,32 @@
 </p>
 <h1 align="center">Lumi</h1>
 <p align="center"><strong>Everyday conversations with AI friends. A place for the stories you share.</strong></p>
-<p align="center">Native iOS chat · Custom characters · Local memories · Moments</p>
+<p align="center">Native iOS / Android chat · Custom characters · Local memories · Moments</p>
 <p align="center">
   <img src="https://img.shields.io/badge/iOS-17%2B-217868?style=flat-square" alt="iOS 17 or later">
+  <img src="https://img.shields.io/badge/Android-8.0%2B-3DDC84?style=flat-square" alt="Android 8.0 or later">
   <img src="https://img.shields.io/badge/SwiftUI-Swift%206-217868?style=flat-square" alt="SwiftUI and Swift 6">
   <img src="https://img.shields.io/badge/License-Noncommercial-217868?style=flat-square" alt="Noncommercial license">
 </p>
 <p align="center">
-  <a href="https://github.com/NakanoNino233/Lumi/releases/latest">Download IPA</a> ·
+  <a href="https://github.com/NakanoNino233/Lumi/releases/tag/1.0.0">Download iOS IPA</a> ·
+  <a href="https://github.com/NakanoNino233/Lumi/releases/tag/android-v1.0.4">Download Android APK</a> ·
+  <a href="android/README.md">Android source and guide</a> ·
   <a href="#getting-started">Getting started</a> ·
   <a href="#features">Features</a> ·
   <a href="#build-from-source">Build from source</a>
 </p>
 
 ---
+
+## Platforms and downloads
+
+| Platform | Separate project | Downloads and guide |
+| --- | --- | --- |
+| iOS 17+ | `Lumi.xcodeproj`, `Lumi/`, and `LumiWidgets/` at the repository root | [iOS 1.0.0 IPA](https://github.com/NakanoNino233/Lumi/releases/tag/1.0.0) · [iOS installation guide](Documentation/Installation.md) |
+| Android 8.0+ | [`android/`](android/): Kotlin / Jetpack Compose; open this directory in Android Studio | [Android 1.0.4 APK](https://github.com/NakanoNino233/Lumi/releases/tag/android-v1.0.4) · [Android features, installation, and build instructions (Chinese)](android/README.md) |
+
+Android releases use separate `android-v*` tags. The APK is signed and ready to install. See the Android guide for feature coverage and migration limitations. The existing features, screenshots, and setup instructions below describe the iOS app.
 
 Lumi brings conversations, character profiles, memories, and everyday updates together in one app. Start with the built-in friend **大肥鱼 (Da Fei Yu)**, or create your own AI friends, each with their own personality, conversations, and shared history.
 

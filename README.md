@@ -5,20 +5,32 @@
 </p>
 <h1 align="center">Lumi</h1>
 <p align="center"><strong>和 AI 好友聊日常，也把彼此的故事留在这里。</strong></p>
-<p align="center">原生 iOS 聊天应用 · 自定义人设 · 本地记忆 · 朋友圈</p>
+<p align="center">原生 iOS / Android 聊天应用 · 自定义人设 · 本地记忆 · 朋友圈</p>
 <p align="center">
   <img src="https://img.shields.io/badge/iOS-17%2B-217868?style=flat-square" alt="iOS 17 及以上">
+  <img src="https://img.shields.io/badge/Android-8.0%2B-3DDC84?style=flat-square" alt="Android 8.0 及以上">
   <img src="https://img.shields.io/badge/SwiftUI-Swift%206-217868?style=flat-square" alt="SwiftUI 与 Swift 6">
   <img src="https://img.shields.io/badge/License-Noncommercial-217868?style=flat-square" alt="非商业许可">
 </p>
 <p align="center">
-  <a href="https://github.com/NakanoNino233/Lumi/releases/latest">下载 IPA</a> ·
+  <a href="https://github.com/NakanoNino233/Lumi/releases/tag/1.0.0">下载 iOS IPA</a> ·
+  <a href="https://github.com/NakanoNino233/Lumi/releases/tag/android-v1.0.4">下载 Android APK</a> ·
+  <a href="android/README.md">Android 源码与说明</a> ·
   <a href="#开始使用">开始使用</a> ·
   <a href="Documentation/Installation.md">安装指南</a> ·
   <a href="#功能一览">功能一览</a>
 </p>
 
 ---
+
+## 平台与下载
+
+| 平台 | 独立工程 | 安装包与说明 |
+| --- | --- | --- |
+| iOS 17+ | 仓库根目录的 `Lumi.xcodeproj`、`Lumi/` 和 `LumiWidgets/` | [iOS 1.0.0 IPA](https://github.com/NakanoNino233/Lumi/releases/tag/1.0.0) · [iOS 安装指南](Documentation/Installation.md) |
+| Android 8.0+ | [`android/`](android/)：Kotlin / Jetpack Compose，使用 Android Studio 打开该目录 | [Android 1.0.4 APK](https://github.com/NakanoNino233/Lumi/releases/tag/android-v1.0.4) · [Android 功能、安装与构建](android/README.md) |
+
+Android 使用独立的 `android-v*` 版本标签与 Release。APK 已签名，可直接下载安装；Android 的功能范围和 iOS 迁移限制以 [Android 说明](android/README.md)为准。下方原有功能、截图和安装步骤介绍 iOS 版。
 
 Lumi 把聊天、好友人设、记忆和生活动态放在一个地方。你可以从内置好友「大肥鱼」开始，也可以创建自己的 AI 好友，让不同的角色拥有各自的聊天、设定和相处记录。
 

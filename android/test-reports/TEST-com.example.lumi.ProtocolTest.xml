@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<testsuite name="com.example.lumi.ProtocolTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-11-16T17:37:07.768Z" time="0.068">
+  <properties />
+  <testcase name="sseFlushesFinalUnterminatedEventAndLimitsSize" classname="com.example.lumi.ProtocolTest" time="0.031" />
+  <testcase name="memoryRecallUsesChinesePairsAndPinnedFacts" classname="com.example.lumi.ProtocolTest" time="0.015" />
+  <testcase name="credentialsAndInsecureDestinationsAreRejected" classname="com.example.lumi.ProtocolTest" time="0.01" />
+  <testcase name="completionPathsPreserveGatewayPrefixes" classname="com.example.lumi.ProtocolTest" time="0.0" />
+  <testcase name="sseHandlesEveryChunkBoundaryAndCrLf" classname="com.example.lumi.ProtocolTest" time="0.003" />
+  <testcase name="replyMetadataNeverLeaksIntoChat" classname="com.example.lumi.ProtocolTest" time="0.002" />
+  <system-out />
+  <system-err />
+</testsuite>
