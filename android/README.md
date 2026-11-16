@@ -1,13 +1,13 @@
 # Lumi Android
 
-Lumi 的原生 Android 移植，使用 Kotlin、Jetpack Compose 和 Android 系统 API。iOS 工程位于仓库根目录；Android 的源码、构建和版本发布独立位于本目录。
+Lumi 的原生 Android 移植，使用 Kotlin、Jetpack Compose 和 Android 系统 API。iOS 工程位于仓库根目录；Android 的源码与构建独立位于本目录，APK 和 iOS IPA 统一在同一个发布页下载。
 
 **Android 8.0+ · 1.0.4-android · versionCode 5**
 
 ## 下载与安装
 
-- [下载已签名的 Android 1.0.4 APK](https://github.com/NakanoNino233/Lumi/releases/download/android-v1.0.4/Lumi-Android-1.0.4.apk)
-- [Android Release、源码压缩包和 SHA-256 校验](https://github.com/NakanoNino233/Lumi/releases/tag/android-v1.0.4)
+- [下载已签名的 Android 1.0.4 APK](https://github.com/NakanoNino233/Lumi/releases/latest/download/Lumi-Android-1.0.4.apk)
+- [统一下载页、源码压缩包和 SHA-256 校验](https://github.com/NakanoNino233/Lumi/releases/latest)
 - [返回项目首页 / iOS 版本](../README.md)
 
 下载 APK 后打开安装，按系统提示允许浏览器或文件管理器安装应用。打开 App 后填写资料，或选择“先逛逛”；在“我的 → API 配置”填写自己的服务地址、模型和 API Key。安装包没有内置 API Key、模型额度或离线大模型。

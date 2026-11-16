@@ -1,174 +1,195 @@
 <p align="center"><a href="README.md">简体中文</a> · <strong>English</strong></p>
 
 <p align="center">
-  <img src="Lumi/Assets.xcassets/AppIcon.appiconset/LumiIcon.png" width="112" alt="Lumi plush toy app icon">
+  <img src="Documentation/Images/lumi-banner.svg" width="100%" alt="Lumi · A little company, every day. Native iOS and Android AI friends.">
 </p>
-<h1 align="center">Lumi</h1>
+
 <p align="center"><strong>Everyday conversations with AI friends. A place for the stories you share.</strong></p>
-<p align="center">Native iOS / Android chat · Custom characters · Local memories · Moments</p>
+<p align="center">Custom characters · Local memories · Diaries &amp; relationships · Moments</p>
+
 <p align="center">
-  <img src="https://img.shields.io/badge/iOS-17%2B-217868?style=flat-square" alt="iOS 17 or later">
-  <img src="https://img.shields.io/badge/Android-8.0%2B-3DDC84?style=flat-square" alt="Android 8.0 or later">
-  <img src="https://img.shields.io/badge/SwiftUI-Swift%206-217868?style=flat-square" alt="SwiftUI and Swift 6">
-  <img src="https://img.shields.io/badge/License-Noncommercial-217868?style=flat-square" alt="Noncommercial license">
+  <a href="https://github.com/NakanoNino233/Lumi/releases/latest/download/Lumi-Android-1.0.4.apk"><img src="https://img.shields.io/badge/Android-Download_APK-28634F?style=for-the-badge&amp;logo=android&amp;logoColor=white" alt="Download Android APK"></a>
+  <a href="https://github.com/NakanoNino233/Lumi/releases/latest/download/Lumi-unsigned.ipa"><img src="https://img.shields.io/badge/iOS-Download_IPA-273D35?style=for-the-badge&amp;logo=apple&amp;logoColor=white" alt="Download iOS IPA"></a>
 </p>
 <p align="center">
-  <a href="https://github.com/NakanoNino233/Lumi/releases/tag/1.0.0">Download iOS IPA</a> ·
-  <a href="https://github.com/NakanoNino233/Lumi/releases/tag/android-v1.0.4">Download Android APK</a> ·
-  <a href="android/README.md">Android source and guide</a> ·
-  <a href="#getting-started">Getting started</a> ·
-  <a href="#features">Features</a> ·
+  <a href="https://github.com/NakanoNino233/Lumi/releases/latest"><strong>All downloads &amp; release notes</strong></a> ·
+  <a href="#a-look-at-lumi">Screenshots</a> ·
+  <a href="#getting-started">Get started</a> ·
   <a href="#build-from-source">Build from source</a>
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/iOS-17%2B-EAF0E7?style=flat-square&amp;labelColor=365C4B&amp;color=EAF0E7" alt="iOS 17 or later">
+  <img src="https://img.shields.io/badge/Android-8.0%2B-EAF0E7?style=flat-square&amp;labelColor=365C4B&amp;color=EAF0E7" alt="Android 8.0 or later">
+  <img src="https://img.shields.io/badge/License-Noncommercial-EAF0E7?style=flat-square&amp;labelColor=365C4B&amp;color=EAF0E7" alt="Noncommercial license">
 </p>
 
 ---
 
-## Platforms and downloads
-
-| Platform | Separate project | Downloads and guide |
-| --- | --- | --- |
-| iOS 17+ | `Lumi.xcodeproj`, `Lumi/`, and `LumiWidgets/` at the repository root | [iOS 1.0.0 IPA](https://github.com/NakanoNino233/Lumi/releases/tag/1.0.0) · [iOS installation guide](Documentation/Installation.md) |
-| Android 8.0+ | [`android/`](android/): Kotlin / Jetpack Compose; open this directory in Android Studio | [Android 1.0.4 APK](https://github.com/NakanoNino233/Lumi/releases/tag/android-v1.0.4) · [Android features, installation, and build instructions (Chinese)](android/README.md) |
-
-Android releases use separate `android-v*` tags. The APK is signed and ready to install. See the Android guide for feature coverage and migration limitations. The existing features, screenshots, and setup instructions below describe the iOS app.
-
-Lumi brings conversations, character profiles, memories, and everyday updates together in one app. Start with the built-in friend **大肥鱼 (Da Fei Yu)**, or create your own AI friends, each with their own personality, conversations, and shared history.
-
-**Bring your own model API key. The downloadable IPA is unsigned and must be signed before installation. The current source is available under a noncommercial license; commercial use requires separate permission.**
-
-## A look at Lumi
+Lumi is a native iOS and Android app for everyday conversations with AI friends. Start with **大肥鱼 (Da Fei Yu)** or create a character of your own. Chat about your day, keep a little memory, and share the small moments that make a story.
 
 <table>
   <tr>
-    <th width="33%">Your friends</th>
-    <th width="33%">Everyday moments</th>
-    <th width="33%">Getting to know you</th>
-  </tr>
-  <tr>
-    <td align="center"><img src="Documentation/Images/friends.png" width="240" alt="Friends list with Da Fei Yu, Add Friend, and Import Character Card"></td>
-    <td align="center"><img src="Documentation/Images/moments.png" width="240" alt="Da Fei Yu's Moments page with a custom cover"></td>
-    <td align="center"><img src="Documentation/Images/profile.png" width="240" alt="Personal profile with avatar, name, birthday, and zodiac sign"></td>
+    <td width="33%"><strong>A character to connect with</strong><br>Shape personalities, backgrounds, and ways of speaking. Give every friend a story.</td>
+    <td width="33%"><strong>Memories that stay</strong><br>Turn conversations into memories, diaries, anniversaries, and a growing relationship.</td>
+    <td width="33%"><strong>Your own little world</strong><br>Friend-specific Moments, covers, comments, and likes for the everyday things you share.</td>
   </tr>
 </table>
 
-Actual app screenshots using a blank demo profile, shown in Chinese. Lumi supports Chinese and English. You can customize friend avatars, covers, and your own profile.
+## Downloads
+
+**The APK and IPA are on [the same latest release page](https://github.com/NakanoNino233/Lumi/releases/latest). Choose the package for your phone.**
+
+| | Android | iPhone / iPad |
+| --- | --- | --- |
+| Current version | **1.0.4** | **1.0.0** |
+| Requirements | Android 8.0+ | iOS 17+ |
+| Package | [`Lumi-Android-1.0.4.apk`](https://github.com/NakanoNino233/Lumi/releases/latest/download/Lumi-Android-1.0.4.apk) | [`Lumi-unsigned.ipa`](https://github.com/NakanoNino233/Lumi/releases/latest/download/Lumi-unsigned.ipa) |
+| Installation | Signed; open the APK to install | Unsigned; sign it before installation |
+| Guide | [Android features, installation, and build instructions (Chinese)](android/README.md) | [iOS installation and renewal (Chinese)](Documentation/Installation.md) |
+
+SHA-256 checksums are available with the packages. The two platforms keep their own version numbers and source projects, with one shared download page.
+
+> **Bring your own model API key.** No model credits or offline model are included. The current source uses a noncommercial license.
+
+## A look at Lumi
+
+### Android · Native Jetpack Compose
+
+<table>
+  <tr><th width="33%">Something to talk about</th><th width="33%">Your friends</th><th width="33%">Everyday moments</th></tr>
+  <tr>
+    <td align="center"><img src="Documentation/Images/Android/home.png" width="220" alt="Android chat home and model setup"></td>
+    <td align="center"><img src="Documentation/Images/Android/friends.png" width="220" alt="Android friends, search, and character creation"></td>
+    <td align="center"><img src="Documentation/Images/Android/moments.png" width="220" alt="Da Fei Yu's separate Moments page on Android"></td>
+  </tr>
+</table>
+
+<details>
+<summary><strong>Show iOS · Native SwiftUI</strong></summary>
+
+<table>
+  <tr><th width="33%">Your friends</th><th width="33%">Little moments</th><th width="33%">Getting to know you</th></tr>
+  <tr>
+    <td align="center"><img src="Documentation/Images/friends.png" width="220" alt="iOS friends, Add Friend, and Import Character Card"></td>
+    <td align="center"><img src="Documentation/Images/moments.png" width="220" alt="Da Fei Yu's Moments and custom cover on iOS"></td>
+    <td align="center"><img src="Documentation/Images/profile.png" width="220" alt="iOS profile, birthday, and zodiac sign"></td>
+  </tr>
+</table>
+
+</details>
+
+Actual app screenshots using demo profiles, shown in Chinese. Profiles, avatars, covers, and character settings are customizable. See [third-party and artwork notices](THIRD_PARTY_NOTICES.md) for image rights.
 
 ## Features
 
 | What you want to do | What Lumi offers |
 | --- | --- |
-| Chat about your day | Streaming replies, image attachments, voice input, read-aloud, stickers, group chats, and conversation sharing |
-| Create your own characters | Edit avatars, personalities, backstories, speaking styles, and opening messages; import or export JSON character cards |
-| Keep shared memories | Local memories, diaries, anniversaries, relationship progress, and optional proactive greetings |
-| Share everyday moments | Posts, comments, likes, custom covers, and personal tags in Moments |
-| Let friends get to know you | An editable avatar, name, birthday, and zodiac sign; your Moments avatar follows your profile |
-| Choose your model provider | DeepSeek, ChatGPT, Claude, and custom configuration templates with editable endpoints, model names, and capability switches |
-| Make the app your own | Token usage statistics, themes, dark mode, Chinese and English, widgets, Live Activities, and backup and restore |
+| Chat about your day | Streaming replies, image attachments, voice input, read-aloud, group chats, and conversation sharing |
+| Create a character | Avatars, personalities, backstories, speaking styles, opening messages, and JSON character card import/export |
+| Keep shared memories | Local memories, diaries, anniversaries, relationship progress, and optional automatic memory |
+| Share little moments | Posts, comments, likes, friend-specific pages, and custom covers |
+| Let friends know you | Editable avatar, nickname, birthday, zodiac sign, and personal profile |
+| Choose your model | OpenAI Chat Completions and Anthropic Messages compatibility, with custom endpoints |
+| Manage your data | Local storage, themes, dark mode, reported token usage, and manual backup/restore |
 
-Image understanding and other model capabilities depend on the model you configure. Automatic memories, diaries, and connection tests may also make API calls and incur provider charges.
+**Feature coverage differs between platforms.** iOS also includes widgets, Live Activities, proactive greetings, system tools, and skills. See the [Android guide](android/README.md) for Android coverage and migration limits. Image understanding, voice, and model capabilities depend on your system services and provider.
 
 ## Getting started
 
-### 1. Download and install
+1. **Choose your package.** On Android, install the APK and allow the browser or file manager to install apps if prompted. On iOS, sign and install the IPA using the [installation guide](Documentation/Installation.md).
+2. **Create your profile.** Set an avatar, name, and birthday. Open Da Fei Yu or create your own friend.
+3. **Connect a model.** Find API settings under **Me**, enter an endpoint, model name, and API key, then test and save.
+4. **Start a conversation.** Adjust a character, keep a memory, write a diary, or choose a Moments cover.
 
-Get `Lumi-unsigned.ipa` from [Releases](https://github.com/NakanoNino233/Lumi/releases/latest). A SHA-256 checksum file is available alongside it. **iOS 17 or later is required.**
-
-Sign the IPA with your preferred installation tool before installing it on your iPhone. Follow the official instructions for your tool, such as [AltStore Classic](https://faq.altstore.io/altstore-classic/your-altstore) or [SideStore](https://docs.sidestore.io/). Keep the bundled `LumiWidgets` extension if you want widgets and Live Activities.
-
-To verify the download on a Mac, place the IPA and checksum file in the same folder and run:
-
-```bash
-shasum -a 256 -c Lumi-unsigned.ipa.sha256
-```
-
-An `OK` result means the file matches the published checksum. See the [detailed installation and renewal guide (Chinese)](Documentation/Installation.md) for more information.
-
-### 2. Set up your profile
-
-On first launch, add your avatar, name, birthday, and zodiac sign. You can edit them later in **Me**. Your Moments avatar updates with your profile, and friends refer to your profile when you ask about your birthday.
-
-### 3. Connect a model
-
-Open **Me → Settings → API settings**, select a template, and enter the endpoint, model name, and your own API key. Test the connection, then save.
-
-| Template | What you need |
-| --- | --- |
-| DeepSeek | Your provider's API key and an available model name |
-| ChatGPT | An OpenAI API key and a model available to your account |
-| Claude | An Anthropic API key and a model available to your account |
-| Custom | A compatible service endpoint, API key, and model name |
-
-Templates help fill in settings; they do not include API credits. **Use a model name that is actually available in your provider account**, and match the image and tool capability switches to that model. Check with your provider about chat subscriptions and separate API billing.
-
-### 4. Start a conversation
-
-Open Da Fei Yu in **Chats**, or add a friend in **Friends**. Adjust their personality, have a conversation, and set a cover and tags in **Moments**. Export an in-app backup before updating or moving to another device.
+Use model names available to your provider account. Connection tests, automatic memories, diaries, and AI-generated Moments may incur provider charges. Chat subscriptions and API credits depend on the provider.
 
 ## Data and privacy
 
-Conversations, profiles, memories, and preferences are stored on your device. API keys are stored in the system Keychain. Model requests send the relevant content to your configured provider; automatic memories and diaries also use relevant conversation history. Optional features such as weather require separate activation or permission.
-
-Backups contain your profile and conversations, **but not API keys**. Keep backups private, and remove personal information before sharing screenshots or reporting issues.
-
-## Common questions
-
-<details>
-<summary>Why can't I install the IPA directly?</summary>
-
-The release IPA is unsigned. It must be signed before it can run on an iPhone. Follow your installation tool's official setup and renewal instructions.
-
-</details>
-
-<details>
-<summary>Why am I not getting a reply?</summary>
-
-Run the connection test in API settings. Check the endpoint, API key, account balance, and model name. Template model names are editable and must match the models your account can access. Hide your API key and private conversations when reporting a problem.
-
-</details>
-
-<details>
-<summary>How do I keep my chats when updating or changing phones?</summary>
-
-Export a backup first, and use the same signing tool to update the existing app where possible. Deleting the app removes its local data. On a new device, import your backup and enter your API key again.
-
-</details>
-
-<details>
-<summary>Can I use Lumi in a commercial product?</summary>
-
-The current license does not authorize commercial use. Personal study, research, and noncommercial use must follow [LICENSE](LICENSE). Paid distribution and commercial product integration require separate permission. Earlier releases and third-party assets have separate licensing considerations, explained below.
-
-</details>
+- Conversations, profiles, memories, and preferences stay on your device. Model requests send relevant content to the provider you configure.
+- API keys use the system Keychain on iOS and Android Keystore encryption on Android.
+- Manual backups exclude API keys. Backups contain conversations and personal data; keep them private and re-enter keys after migration.
+- Export a backup before updating. Hide keys and private information when reporting issues.
 
 ## Build from source
 
-Open `Lumi.xcodeproj` in **Xcode 26 or later**, select the `Lumi` scheme and an iPhone simulator, then run. The app uses Swift 6, SwiftUI, and SwiftData. ZIPFoundation is included as a local dependency.
+Separate source projects, shared package downloads:
 
-For a physical device, select your own development team in Signing & Capabilities for both the app and `LumiWidgets`, and change both Bundle Identifiers as needed.
+```text
+Lumi/
+├── android/                 Android Studio · Kotlin / Jetpack Compose
+├── Lumi.xcodeproj           Xcode project
+├── Lumi/                    iOS · SwiftUI / SwiftData
+├── LumiWidgets/             iOS widgets and Live Activities
+├── Distribution/            iOS packaging scripts
+└── Documentation/           Installation, artwork, and development guides
+```
 
 <details>
-<summary>Build an IPA and run tests</summary>
+<summary><strong>Android · Android Studio / Gradle</strong></summary>
 
-From the repository root:
+Open `android/` in Android Studio. Requires JDK 25 and Android API 37; minimum runtime API 26.
+
+```bash
+cd android
+./gradlew :app:assembleDebug
+./gradlew :app:testDebugUnitTest :app:lintDebug
+```
+
+Use `gradlew.bat` on Windows. See the [Android guide](android/README.md) for signed builds, device tests, and feature differences, and [VALIDATION.md](android/VALIDATION.md) for verified results. Release signing keys are not included.
+
+</details>
+
+<details>
+<summary><strong>iOS · Xcode / Swift</strong></summary>
+
+Open `Lumi.xcodeproj` with Xcode 26 or later and run the `Lumi` scheme in a simulator. The app uses Swift 6, SwiftUI, and SwiftData, with ZIPFoundation provided locally.
+
+For a physical device, select your development team in Signing & Capabilities for both the app and `LumiWidgets`, and change Bundle Identifiers as needed.
 
 ```bash
 bash Distribution/build-unsigned.sh
 ```
 
-The unsigned IPA is written to `Distribution/output/`. Installers are distributed through GitHub Releases; build caches, local test reports, user settings, and signing files are excluded from the source repository.
+Output goes to `Distribution/output/`. Use Product → Test in Xcode; automated tests use local mock responses and need no live model key. A manual iOS packaging workflow is available in GitHub Actions. Live provider, voice, widget, signing, and renewal behavior still require device testing.
 
-Use Product → Test in Xcode. Automated tests use local mock responses and do not require a real model API key. The “Build Lumi unsigned IPA” Actions workflow supports manual runs; pushing a tag beginning with `v` builds and publishes its release. The initial `1.0.0` release uses a locally validated build.
+</details>
 
-Model responses, voice and haptics on physical devices, widget presentation, installation, and signing renewal still need verification with real devices and providers.
+## FAQ
+
+<details>
+<summary>Where are the APK and IPA?</summary>
+
+Both are on [the same latest release page](https://github.com/NakanoNino233/Lumi/releases/latest). Choose `.apk` for Android or `.ipa` for iPhone / iPad, or use the buttons at the top of this page.
+
+</details>
+
+<details>
+<summary>Why is the model not replying?</summary>
+
+Test your API connection, endpoint, key, account credits, and model name. Match capability switches to the model. No API credits are included. Hide keys and private chats when reporting problems.
+
+</details>
+
+<details>
+<summary>Can I update or move between platforms?</summary>
+
+Export a backup before updating and keep the same signing identity. Android and iOS use different full backup formats; Android can import some iOS v1 text data. See the [migration scope](android/README.md). API keys are not migrated.
+
+</details>
+
+<details>
+<summary>Can I use Lumi commercially?</summary>
+
+The current source is noncommercial. Commercial use requires separate permission. See [LICENSING.md](LICENSING.md) for historical versions and third-party material.
 
 </details>
 
 ## License and contributions
 
-**The current Lumi-owned code is available under the [PolyForm Noncommercial License 1.0.0](LICENSE). Commercial use requires separate permission.** The license text governs permitted uses and all other conditions. This is a source-available project, not software under an OSI-approved open-source license.
+Lumi's own code uses the [PolyForm Noncommercial License 1.0.0](LICENSE). It is source-available under a noncommercial license, rather than an OSI-approved open-source license. The license text defines the full conditions.
 
-The historical `1.0.0` release was published under MIT, and those previously granted rights remain valid. The current license does not revoke them or change third-party licenses. See the [licensing history (Chinese)](LICENSING.md) and the [original MIT license](LICENSES/Lumi-1.0.0-MIT.txt).
+Historical version `1.0.0` was released under MIT, and existing grants remain valid. Dependencies keep their own licenses. Artwork rights are separate from code rights; obtain permission or replace images before reuse. See [licensing](LICENSING.md) and [third-party notices](THIRD_PARTY_NOTICES.md).
 
-Third-party dependencies retain their own licenses. The code license does not grant rights to the app icon, character avatars, Moments covers, or images shown in screenshots. Obtain permission or replace those assets before reusing them. Sources and notices are listed in [third-party and asset notices (Chinese)](THIRD_PARTY_NOTICES.md).
+Issues and pull requests are welcome. Include your platform, system version, reproduction steps, and screenshots with private information removed in [Issues](https://github.com/NakanoNino233/Lumi/issues).
 
-Bug reports and pull requests are welcome. Please include your iOS version, steps to reproduce, and screenshots with private information removed when opening an [issue](https://github.com/NakanoNino233/Lumi/issues).
+<p align="center"><sub>A little company for the ordinary days.</sub></p>
